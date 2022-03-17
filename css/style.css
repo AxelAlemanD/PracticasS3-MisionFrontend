@@ -1,0 +1,265 @@
+/*
+    =====================
+    ==   TIPOGRAFIAS   ==
+    =====================
+*/
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 48px;
+    color: #1f3e72;
+}
+
+h2{
+    font-weight: 900;
+    font-size: 38px;
+    color: #1f3e72;
+}
+
+h4{
+    font-weight: 900;
+    font-size: 19px;
+    color: #1f3e72;
+    margin-top: 7px;
+}
+
+.description{
+    width: 75%;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6d7b93;
+    line-height: 28px;
+}
+
+
+/*
+    =============
+    ==   NAV   ==
+    =============
+*/
+nav{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.900);
+    padding: 5px;
+    width: 98.7%;
+    position: absolute;
+    margin-top: -1%;
+}
+
+#logo{
+    margin-left: 25px;
+    font-weight: 900;
+    color: #3858d6;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 45%;
+
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 35px;
+    margin-top: 5px;
+    color: grey;
+    font-weight: bold;
+}
+
+
+/*
+    ==================
+    ==   COLUMNAS   ==
+    ==================
+*/
+.col-1{
+    width: 40%;
+    padding: 2% 5%;
+    float: left;
+}
+
+.col-2{
+    width: 45%;
+    padding: 2%;
+    float: right;
+}
+
+.col-2 > img, .col-1 > img{
+    width: 665px;
+	height: 700px;
+    margin-left: -30px;
+    margin-top: -130px;
+	object-fit: cover;
+}
+
+
+/*
+    ==================
+    ==   ICONOS   ==
+    ==================
+*/
+.icon-gold, .icon-blue{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    margin-top: -10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #fffbeb;
+}
+
+.icon-blue{
+    background-color: #eff3ff;
+}
+
+.icon-blue-lg{
+    margin-top: 0px;
+    width: 16%;
+    height: 16%;
+}
+
+.text-icon{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.text-for-icon{
+    margin-right: 40px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    color: #1f3e72;
+}
+
+#lista_iconos{
+    display: flex;
+}
+
+
+/*
+    ==================
+    ==   BOTONOES   ==
+    ==================
+*/
+.btn-primary, .btn-transparent{
+    width: 125%;
+    padding: 13px;
+    border-radius: 5px;
+    margin-top: -15px;
+    border: 0px;
+    color: white;
+    background-color: #3858d6;
+    box-shadow: 2px 4px 20px 1px rgba(0, 28, 189, 0.2);
+    font-weight: bold;
+}
+
+.btn-transparent{
+    background-color: #eff3ff;
+    color: #025ac8;
+    box-shadow: none;
+}
+
+.btn-sm{
+    width: 100%;
+}
+
+
+/*
+    ==================
+    ==   TARJETAS   ==
+    ==================
+*/
+#card-info{
+    display: flex;
+    width: 60%;
+    padding: 10px 35px 25px 35px;
+    box-shadow: 2px 4px 20px 1px rgba(0, 28, 189, 0.2);
+    background-color: rgba(255, 255, 255, 0.850);
+    border-radius: 5px;
+    position: absolute;
+}
+
+/* #card-info div{
+    margin-right: 1%;
+} */
+
+#card-group{
+    display: flex;
+    justify-content: center;
+}
+
+.card, .card-sm{
+    /* border: 1px solid grey; */
+    width: 18%;
+    padding: 25px 25px 65px 25px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 20px 1px rgba(0, 28, 189, 0.100);
+    margin-right: 2%;
+}
+
+.card-sm{
+    width: 80%;
+    padding: 25px 25px 40px 25px;
+}
+
+.card:hover, .card-sm:hover{
+    box-shadow: 2px 4px 20px 1px rgba(0, 28, 189, 0.248);
+}
+
+
+
+.bg-blue{
+    height: 400px;
+    margin-top: 13%;
+    background-color: #025ac8;
+}
+
+
+
+
+section{
+    padding-bottom: 4%;
+    margin-bottom: 5%;
+}
+
+
+/*
+    ================
+    ==   FOOTER   ==
+    ================
+*/
+
+footer{
+    margin-top: 65%;
+    background-color: #eff3ff;
+    padding: 1% 10%;
+}
+
+#contenedor{
+    display: flex;
+    margin-bottom: 3%;
+}
+
+#footer-description{
+    width: 35%;
+    margin-right: 30%;
+}
+
+.footer-list{
+    width: 20%;
+}
+.footer-list ul {
+    margin-left: -22%;
+}
+.footer-list ul li{
+    list-style: none;
+    margin-bottom: 15%;
+    font-weight: bold;
+    color: #6d7b93;
+}
+
+#copyright{
+    display: flex;
+}
